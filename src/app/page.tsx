@@ -1,5 +1,12 @@
-import Image from "next/image";
+"use client";
+
+import Counter from "./components/Counter";
+import "./styles.css"; 
 
 export default function Home() {
-  return <p>Hello World!</p>
+  return (
+    <div className="app-container">
+      <Counter />
+    </div>
+  );
 }
